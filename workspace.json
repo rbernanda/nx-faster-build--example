@@ -1,5 +1,17 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "auth": "apps/auth",
+    "auth-e2e": "apps/auth-e2e",
+    "components": "libs/components",
+    "data": "libs/data",
+    "home": "apps/home",
+    "home-e2e": "apps/home-e2e",
+    "host": "apps/host",
+    "host-e2e": "apps/host-e2e",
+    "profile": "apps/profile",
+    "profile-e2e": "apps/profile-e2e",
+    "shared-ui": "libs/shared-ui"
+  }
 }

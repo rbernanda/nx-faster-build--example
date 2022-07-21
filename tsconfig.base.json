@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-faster-build--example/components": ["libs/components/src/index.ts"],
+      "@nx-faster-build--example/data": ["libs/data/src/index.ts"],
+      "@nx-faster-build--example/shared-ui": ["libs/shared-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
